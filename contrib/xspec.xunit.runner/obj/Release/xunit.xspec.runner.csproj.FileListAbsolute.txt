@@ -1,0 +1,13 @@
+C:\repositories\xSpec\build\xunit.xspec.runner.dll
+C:\repositories\xSpec\build\xunit.xspec.runner.pdb
+C:\repositories\xSpec\contrib\xspec.xunit.runner\obj\Release\ResolveAssemblyReference.cache
+C:\repositories\xSpec\contrib\xspec.xunit.runner\obj\Release\xunit.xspec.runner.dll
+C:\repositories\xSpec\contrib\xspec.xunit.runner\obj\Release\xunit.xspec.runner.pdb
+c:\repositories\xspec\contrib\xspec.xunit.runner\bin\Release\xunit.xspec.runner.dll
+c:\repositories\xspec\contrib\xspec.xunit.runner\bin\Release\xunit.xspec.runner.pdb
+c:\repositories\xspec\contrib\xspec.xunit.runner\bin\Release\xspec.dll
+c:\repositories\xspec\contrib\xspec.xunit.runner\bin\Release\xspec.runner.utility.dll
+c:\repositories\xspec\contrib\xspec.xunit.runner\bin\Release\xunit.dll
+c:\repositories\xspec\contrib\xspec.xunit.runner\bin\Release\Moq.dll
+c:\repositories\xspec\contrib\xspec.xunit.runner\bin\Release\xspec.runner.utility.pdb
+c:\repositories\xspec\contrib\xspec.xunit.runner\bin\Release\xspec.pdb

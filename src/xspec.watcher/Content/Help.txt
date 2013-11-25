@@ -1,0 +1,21 @@
+﻿xspec.console.exe - Console runner for xspec tests
+ 
+ Usage:
+ 
+xspec.console.exe	[/?] [/help] [/library {test library file name}] [/path {path to directory}] [/feedback]
+									
+
+ /?                                            - shows this usage
+ /library {test library name}   - runs the tests inside of the code library (must be suffixed with the file extention)
+ /path {path to directory}       - runs all tests inside of the directory path whose file name contains the word "Test" (case insensitive)
+ /feedback                              - shows test run feedback with Growl like notifications (optional)
+ 
+ Ex: Basic usage for testing a single assembly of tests
+ xspec.console.exe /library "MyLibrary.Tests.dll"
+
+ Ex: Basic usage for testing a series of tests in a directory
+ xspec.console.exe /path "C:\Development\MyProject\Build"
+
+By default if no options are specified, the /path option will be selected and all tests will be run in the current directory.
+
+Press any key to exit the "Help":

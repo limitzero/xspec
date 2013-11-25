@@ -1,0 +1,14 @@
+﻿Test Runner : {unit.test.runner}
+
+(you can change the test runner inside of the watcher.config.exe file...) 
+
+NOTE:
+The watcher will look for any projects that have the name of "Test" inside
+of the project name , build the solution and run the test projects according 
+to your runner (i.e. UnitTest.csproj, Unit.Tests.csproj).
+
+Notification Utility Path: {notification.utility.executable.path}
+
+Watching Path: {watch.path}
+
+Code File Extensions Monitored for Changes : {code.file.extensions}

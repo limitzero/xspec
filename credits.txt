@@ -1,0 +1,3 @@
+NSpec (Amir Rajan) :  http://nspec.org/
+RSpec : http://rspec.info/
+SpecWatchr:  https://github.com/amirrajan/SpecWatchr

@@ -1,0 +1,5 @@
+C:\repositories\xSpec\build\xunit.xspec.runner.dll
+C:\repositories\xSpec\build\xunit.xspec.runner.pdb
+c:\repositories\xSpec\contrib\xspec.xunit.runner\obj\Debug\ResolveAssemblyReference.cache
+c:\repositories\xSpec\contrib\xspec.xunit.runner\obj\Debug\xunit.xspec.runner.dll
+c:\repositories\xSpec\contrib\xspec.xunit.runner\obj\Debug\xunit.xspec.runner.pdb

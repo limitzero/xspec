@@ -1,0 +1,105 @@
+watching path : c:\repositories\xSpec\
+xspec watcher started, press 'q' to quit
+indexing project:c:\repositories\xSpec\src\xspec.notifier\xspec.notifier.csproj
+indexing project:c:\repositories\xSpec\src\xSpec\xspec.csproj
+indexing project:c:\repositories\xSpec\src\xspec.console\xspec.console.csproj
+indexing project:c:\repositories\xSpec\src\xspec.runner.utility\xspec.runner.utility.csproj
+indexing project:c:\repositories\xSpec\src\xspec.watcher\xspec.watcher.csproj
+indexing project:c:\repositories\xSpec\tests\xspec.tests\xspec.sample.tests.csproj
+indexing project:c:\repositories\xSpec\contrib\xspec.xunit.runner\xunit.xspec.runner.csproj
+file selected for triggering build and test session:c:\repositories\xSpec\tests\xspec.tests\calculator\calculator_specifications.cs
+building project: c:\repositories\xSpec\tests\xspec.tests\xspec.sample.tests.csproj
+Build - Success
+
+banking specifications
+  when transferring an amount larger than the balance of the from account
+    it should not allow the transfer to happen
+    it should note that the withdrawal exceeds the current balance - PENDING
+  when transferring an amount smaller that the balance of the from account
+    it should withdraw the specified amount from account
+    it should allow the transfer to the desired account
+
+calculator specifications
+  when adding two non negative numbers
+    it should return the result of both terms added together
+    it should return a positive result from the addition
+  specify substracting two non negative numbers
+  and the first term is less than the second term
+    it should return a negative number - FAILED - Expected: -45, Actual: -1
+
+online email specifications
+  when providing a username and password to login
+  and the user name and password is valid
+    it will authenticate the user using the user name and password
+
+
+************ FAILURES ************
+it should return a negative number - FAILED - Expected: -45, Actual: -1
+
+5 examples, 8 conditions, 6 passed, 1 failed, 1 skipped, (2.86 seconds) (xSpec)
+Test Failure - >> it should return a negative number - FAILED - Expected: -45, Actual: -1
+Test Failure - >> it should return a negative number - FAILED - Expected: -45, Actual: -1
+file selected for triggering build and test session:c:\repositories\xSpec\tests\xspec.tests\calculator\calculator_specifications.cs
+building project: c:\repositories\xSpec\tests\xspec.tests\xspec.sample.tests.csproj
+Build - Success
+
+banking specifications
+  when transferring an amount larger than the balance of the from account
+    it should not allow the transfer to happen
+    it should note that the withdrawal exceeds the current balance - PENDING
+  when transferring an amount smaller that the balance of the from account
+    it should withdraw the specified amount from account
+    it should allow the transfer to the desired account
+
+calculator specifications
+  when adding two non negative numbers
+    it should return the result of both terms added together
+    it should return a positive result from the addition
+  specify substracting two non negative numbers
+  and the first term is less than the second term
+    it should return a negative number - FAILED - Expected: 7, Actual: -1
+
+online email specifications
+  when providing a username and password to login
+  and the user name and password is valid
+    it will authenticate the user using the user name and password
+
+
+************ FAILURES ************
+it should return a negative number - FAILED - Expected: 7, Actual: -1
+
+5 examples, 8 conditions, 6 passed, 1 failed, 1 skipped, (3.14 seconds) (xSpec)
+Test Failure - >> it should return a negative number - FAILED - Expected: 7, Actual: -1
+Test Failure - >> it should return a negative number - FAILED - Expected: 7, Actual: -1
+file selected for triggering build and test session:c:\repositories\xSpec\src\xspec.watcher\Program.cs
+building project: c:\repositories\xSpec\src\xspec.watcher\xspec.watcher.csproj
+Build - Success
+
+banking specifications
+  when transferring an amount larger than the balance of the from account
+    it should not allow the transfer to happen
+    it should note that the withdrawal exceeds the current balance - PENDING
+  when transferring an amount smaller that the balance of the from account
+    it should withdraw the specified amount from account
+    it should allow the transfer to the desired account
+
+calculator specifications
+  when adding two non negative numbers
+    it should return the result of both terms added together
+    it should return a positive result from the addition
+  specify substracting two non negative numbers
+  and the first term is less than the second term
+    it should return a negative number - FAILED - Expected: 7, Actual: -1
+
+online email specifications
+  when providing a username and password to login
+  and the user name and password is valid
+    it will authenticate the user using the user name and password
+
+
+************ FAILURES ************
+it should return a negative number - FAILED - Expected: 7, Actual: -1
+
+5 examples, 8 conditions, 6 passed, 1 failed, 1 skipped, (5.88 seconds) (xSpec)
+Test Failure - >> it should return a negative number - FAILED - Expected: 7, Actual: -1
+Test Failure - >> it should return a negative number - FAILED - Expected: 7, Actual: -1

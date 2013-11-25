@@ -1,0 +1,10 @@
+C:\repositories\xSpec\contrib\mstest.xspec.runner\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\repositories\xSpec\contrib\mstest.xspec.runner\bin\Debug\mstest.xspec.runner.dll
+C:\repositories\xSpec\contrib\mstest.xspec.runner\bin\Debug\mstest.xspec.runner.pdb
+C:\repositories\xSpec\contrib\mstest.xspec.runner\bin\Debug\xspec.dll
+C:\repositories\xSpec\contrib\mstest.xspec.runner\bin\Debug\xspec.runner.utility.dll
+C:\repositories\xSpec\contrib\mstest.xspec.runner\bin\Debug\Moq.dll
+C:\repositories\xSpec\contrib\mstest.xspec.runner\bin\Debug\xspec.runner.utility.pdb
+C:\repositories\xSpec\contrib\mstest.xspec.runner\bin\Debug\xspec.pdb
+C:\repositories\xSpec\contrib\mstest.xspec.runner\obj\x86\Debug\mstest.xspec.runner.dll
+C:\repositories\xSpec\contrib\mstest.xspec.runner\obj\x86\Debug\mstest.xspec.runner.pdb

@@ -1,0 +1,11 @@
+C:\repositories\xSpec\contrib\xspec.xunit.runner\bin\AutoTest.Net\_tmpIntermediateAT\ResolveAssemblyReference.cache
+C:\repositories\xSpec\contrib\xspec.xunit.runner\bin\AutoTest.Net\_tmpIntermediateAT\xunit.xspec.runner.dll
+C:\repositories\xSpec\contrib\xspec.xunit.runner\bin\AutoTest.Net\_tmpIntermediateAT\xunit.xspec.runner.pdb
+C:\repositories\xSpec\contrib\xspec.xunit.runner\bin\AutoTest.Net\xunit.xspec.runner.dll
+C:\repositories\xSpec\contrib\xspec.xunit.runner\bin\AutoTest.Net\xunit.xspec.runner.pdb
+C:\repositories\xSpec\contrib\xspec.xunit.runner\bin\AutoTest.Net\xSpec.dll
+C:\repositories\xSpec\contrib\xspec.xunit.runner\bin\AutoTest.Net\xunit.dll
+C:\repositories\xSpec\contrib\xspec.xunit.runner\bin\AutoTest.Net\Moq.dll
+C:\repositories\xSpec\contrib\xspec.xunit.runner\bin\AutoTest.Net\xSpec.pdb
+C:\repositories\xSpec\contrib\xspec.xunit.runner\bin\AutoTest.Net\xspec.runner.utility.dll
+C:\repositories\xSpec\contrib\xspec.xunit.runner\bin\AutoTest.Net\xspec.runner.utility.pdb

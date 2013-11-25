@@ -1,0 +1,2 @@
+﻿Post Build Command(s):
+$(TargetDir)xspec.console.exe /library:xspec.sample.tests.dll

@@ -1,0 +1,11 @@
+C:\repositories\xSpec\build\xspec.xunit.runner.dll
+C:\repositories\xSpec\build\xspec.xunit.runner.pdb
+C:\repositories\xSpec\contrib\xspec.xunit.runner\bin\Debug\xspec.xunit.runner.dll
+C:\repositories\xSpec\contrib\xspec.xunit.runner\bin\Debug\xspec.xunit.runner.pdb
+C:\repositories\xSpec\contrib\xspec.xunit.runner\bin\Debug\xSpec.dll
+C:\repositories\xSpec\contrib\xspec.xunit.runner\bin\Debug\xunit.dll
+C:\repositories\xSpec\contrib\xspec.xunit.runner\bin\Debug\Moq.dll
+C:\repositories\xSpec\contrib\xspec.xunit.runner\bin\Debug\xSpec.pdb
+C:\repositories\xSpec\contrib\xspec.xunit.runner\obj\Debug\ResolveAssemblyReference.cache
+C:\repositories\xSpec\contrib\xspec.xunit.runner\obj\Debug\xspec.xunit.runner.dll
+C:\repositories\xSpec\contrib\xspec.xunit.runner\obj\Debug\xspec.xunit.runner.pdb

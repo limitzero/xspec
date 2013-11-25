@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EB313B09-9CF1-4E14-B753-0D2A2CA2E710}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>xspec.runner.utility</RootNamespace>
+    <AssemblyName>xspec.runner.utility</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Executor\ISpecificationExecutor.cs" />
+    <Compile Include="Executor\SpecificationExecutor.cs" />
+    <Compile Include="Hosting\DefaultExecutorHost.cs" />
+    <Compile Include="Hosting\HostedExecutor.cs" />
+    <Compile Include="Hosting\IExecutorHost.cs" />
+    <Compile Include="Hosting\IHostedExecutor.cs" />
+    <Compile Include="Hosting\RemoteExecutorHost.cs" />
+    <Compile Include="Notification\Console\ConsoleNotificationService.cs" />
+    <Compile Include="Notification\INotificationService.cs" />
+    <Compile Include="Notification\Messages\FailureNotificationMessage.cs" />
+    <Compile Include="Notification\Messages\InformationNotificationMessage.cs" />
+    <Compile Include="Notification\Messages\NotificationMessage.cs" />
+    <Compile Include="Notification\Messages\SuccessNotificationMessage.cs" />
+    <Compile Include="Parser\XSpecConsoleTestRunnerOutputParser.cs" />
+    <Compile Include="Processor\ISpecificationProcessor.cs" />
+    <Compile Include="Processor\SpecificationProcessor.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Result\ISpecificationResult.cs" />
+    <Compile Include="Result\SpecificationResult.cs" />
+    <Compile Include="Result\SpecificationResultsException.cs" />
+    <Compile Include="Settings\ClassTypeOnlyRunSettings.cs" />
+    <Compile Include="Settings\InstanceOnlyRunSettings.cs" />
+    <Compile Include="TypeResolver.cs" />
+    <Compile Include="Settings\AllAssembliesInExecutablePathOnlyRunSettings.cs" />
+    <Compile Include="Settings\AssemblyOnlyRunSettings.cs" />
+    <Compile Include="Settings\ClassOnlyRunSettings.cs" />
+    <Compile Include="Runner\ISpecificationRunner.cs" />
+    <Compile Include="Settings\NamespaceOnlyRunSettings.cs" />
+    <Compile Include="Settings\RunSettings.cs" />
+    <Compile Include="Runner\SpecificationRunner.cs" />
+    <Compile Include="Writer\ConsoleSpecificationWriter.cs" />
+    <Compile Include="Writer\ISpecificationWriter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\xSpec\xspec.csproj">
+      <Project>{5496FEB8-D09C-421D-B87A-8D822893484A}</Project>
+      <Name>xspec</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
